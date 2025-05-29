@@ -23,3 +23,9 @@ if __name__ == "__main__":
     target = 9
     result = find_two_sum(nums, target)
     print(f"Для массива {nums} и target={target} результат: {result}")
+
+
+print(find_two_sum([3, 2, 4], 6))
+print(find_two_sum([3, 3], 6))
+print(find_two_sum([1, 2, 3], 5))
+print(find_two_sum([1, 2, 3], 10))
